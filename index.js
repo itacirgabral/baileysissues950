@@ -1,5 +1,3 @@
-
-
 const fs = require('fs')
 const { WAConnection, MessageType, Mimetype } = require('@adiwajshing/baileys')
 
