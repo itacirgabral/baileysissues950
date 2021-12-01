@@ -17,7 +17,7 @@ const options = {
     setTimeout(() => {
         console.log('bep')
         conn
-          .sendMessage (someone, image, messageType, options)
+          .sendMessage(someone, image, messageType, options)
           .then(console.dir)
           .catch(console.erro)
     }, 1_000)
